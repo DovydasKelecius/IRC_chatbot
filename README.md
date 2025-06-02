@@ -1,15 +1,15 @@
 IRC chatbot for unix2025task3
 
 ✨ Features
-Gemini AI Integration: Connects to Google's Gemini API for advanced conversational capabilities.
-Multi-Process Architecture: Dedicated child processes (workers) for each IRC channel prevent blocking and ensure that AI responses are processed concurrently.
-Pinger Process: A separate child process keeps the IRC connection alive by periodically sending PINGs, ensuring stability.
-Robust Inter-Process Communication (IPC): Utilizes POSIX pipes for parent-to-child communication and semaphores for safe, synchronized access to the IRC socket.
-Configurable Channels: Easily define channels, their associated AI personas, and whether AI features are enabled via a simple configuration file.
-Mute Functionality: Admins can mute specific users to prevent the bot from responding to them. (From admin channel)
-Dynamic API Key Loading: Loads the Gemini API key securely from environment variables.
-Error Logging: Comprehensive logging provides insights into bot operations, warnings, and errors.
-Graceful Shutdown: Handles SIGINT and SIGTERM signals for clean shutdown of all child processes and resource deallocation.
+- Gemini AI Integration: Connects to Google's Gemini API for advanced conversational capabilities.
+- Multi-Process Architecture: Dedicated child processes (workers) for each IRC channel prevent blocking and ensure that AI responses are processed concurrently.
+- Pinger Process: A separate child process keeps the IRC connection alive by periodically sending PINGs, ensuring stability.
+- Robust Inter-Process Communication (IPC): Utilizes POSIX pipes for parent-to-child communication and semaphores for safe, synchronized access to the IRC socket.
+- Configurable Channels: Easily define channels, their associated AI personas, and whether AI features are enabled via a simple configuration file.
+- Mute Functionality: Admins can mute specific users to prevent the bot from responding to them. (From admin channel)
+- Dynamic API Key Loading: Loads the Gemini API key securely from environment variables.
+- Error Logging: Comprehensive logging provides insights into bot operations, warnings, and errors.
+- Graceful Shutdown: Handles SIGINT and SIGTERM signals for clean shutdown of all child processes and resource deallocation.
 
 🛠️ Technologies Used
 
