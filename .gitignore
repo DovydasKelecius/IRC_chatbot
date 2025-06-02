@@ -1,0 +1,5 @@
+*.o
+*.log
+irc_chat.log
+irc_chatbot
+muted_users.txt
